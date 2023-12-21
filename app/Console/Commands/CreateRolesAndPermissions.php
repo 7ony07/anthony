@@ -38,7 +38,7 @@ class CreateRolesAndPermissions extends Command
         
         $role = Role::create(['name' => 'matematico']);
         $permission = Permission::create(['name' => 'disponer']);
-        $role->givePermissionTo($permission);
+        $role->givePermissionTo($permission); 
 
 
     }
